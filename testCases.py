@@ -15,7 +15,7 @@ class SignupSigninTestCase(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path=webdriver_path, options=chrome_options)
 
         # Open the web application URL
-        self.driver.get("http://18.142.122.8/register")
+        self.driver.get("http://127.0.0.1:8000/register")
 
     def tearDown(self):
         # Close the browser
